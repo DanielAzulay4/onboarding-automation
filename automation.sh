@@ -9,16 +9,18 @@ echo ""
 echo "Updating homebrew"
 brew update
 
-dev_apps=(
-	iterm2
-  docker
-	google-chrome
-	visual-studio-code
-  goland
-  spotify
-  slack
-)
-brew install ${dev_apps[@]} --cask
+# dev_apps=(
+# 	iterm2
+#   docker
+# 	google-chrome
+# 	visual-studio-code
+#   goland
+#   spotify
+#   slack
+# )
+# brew install ${dev_apps[@]} --cask
+
+brew install golang
 
 echo ""
 echo "Installing ohmyzsh"
