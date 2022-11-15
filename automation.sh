@@ -10,12 +10,12 @@ echo "Updating homebrew"
 brew update
 
 dev_apps=(
-	# iterm2
-  # docker
-	# google-chrome
-	# visual-studio-code
-  # goland
-  # spotify
+	iterm2
+  docker
+	google-chrome
+	visual-studio-code
+  goland
+  spotify
   slack
 )
 brew install ${dev_apps[@]} --cask
@@ -28,4 +28,5 @@ echo ""
 echo "Installing Yarn"
 brew install yarn
 
+echo ""
 echo "Done!"
